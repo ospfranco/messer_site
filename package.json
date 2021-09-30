@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "scripts": {
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "dev": "bundle exec jekyll serve --livereload --drafts --future --incremental --port 3000 '$@'",
     "build": "JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build -d docs && git add ."
   },
