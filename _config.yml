@@ -7,9 +7,9 @@ plugins:
   - jekyll-purgecss
 
 author: "Oscar Franco"
-url: "https://cidemon.com"
-title: "CI Demon, builds on your desktop"
-description: "macOS app to monitor your CI build jobs from your desktop"
+url: "https://messerapp.cc"
+title: "Messer, drag and drop image resizing"
+description: "macOS menubar app to resize and convert images"
 
 exclude:
   - Gemfile
