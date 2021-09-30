@@ -1,3 +1,7 @@
+var colors = require("tailwindcss/colors");
+
+delete colors.lightBlue;
+
 module.exports = {
   purge: [
     "./_includes/**/*.html",
@@ -8,9 +12,7 @@ module.exports = {
   darkMode: "media",
   theme: {
     extend: {
-      colors: {
-        // ...require("tailwindcss/colors"),
-      },
+      colors,
       width: {
         768: "768px",
       },
