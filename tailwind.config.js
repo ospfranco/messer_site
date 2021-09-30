@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ...require("tailwindcss/colors"),
+        // ...require("tailwindcss/colors"),
         bgGray: {
           DEFAULT: "#0b0b0c",
         },

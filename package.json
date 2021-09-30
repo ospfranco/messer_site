@@ -3,14 +3,13 @@
   "scripts": {
     "postinstall": "husky install",
     "dev": "bundle exec jekyll serve --livereload --drafts --future --incremental --port 3000 '$@'",
-    "build": "JEKYLL_ENV=production bundle exec jekyll build -d docs && git add ."
+    "build": "JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build -d docs && git add ."
   },
   "dependencies": {
     "cssnano": "^5.0.5",
     "husky": "^5.0.9",
     "postcss-cli": "8.3.1",
     "postcss-import": "14.0.0",
-    "purgecss": "4.0.0",
     "autoprefixer": "^10.3.6",
     "postcss": "^8.3.8",
     "tailwind-scrollbar-hide": "^1.0.3",
