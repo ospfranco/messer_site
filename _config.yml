@@ -1,8 +1,5 @@
-markdown: kramdown
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-postcss
 
 author: "Oscar Franco"
@@ -15,10 +12,6 @@ exclude:
   - Gemfile.lock
   - node_modules
   - yarn.lock
-  - package-lock.json
   - README.md
   - postcss.config.js
-  - purgecss.config.js
-  - netlify.toml
-  - bin
   - .gitignore
