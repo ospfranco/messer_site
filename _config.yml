@@ -1,0 +1,25 @@
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-postcss
+  - jekyll-purgecss
+
+author: "Oscar Franco"
+url: "https://cidemon.com"
+title: "CI Demon, builds on your desktop"
+description: "macOS app to monitor your CI build jobs from your desktop"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - yarn.lock
+  - package-lock.json
+  - README.md
+  - postcss.config.js
+  - purgecss.config.js
+  - netlify.toml
+  - bin
+  - .gitignore
