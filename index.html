@@ -19,6 +19,7 @@ layout: default
       dark:bg-opacity-50
       bg-opacity-90
       backdrop-filter backdrop-blur
+      border-b
     "
   >
     <div class="flex w-full md:w-9/12 items-center">
@@ -26,22 +27,21 @@ layout: default
         src="{{site.baseurl}}/assets/logo.webp"
         class="object-cover h-8 w-8"
       />
-      <div class="text-lg pl-2 flex-1">Messer</div>
+      <div class="text-lg pl-2 flex-1 font-medium">Messer</div>
 
-      <a href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12">
+      <a href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12" class="hover:bg-gray-100 rounded transition duration-200">
         <div
           class="
-            text-white
-            bg-gradient-to-r
+            text-transparent
+            bg-clip-text bg-gradient-to-br
             from-blue-500
             to-purple-500
             px-6
-            rounded
             text-lg
-            ml-4
+            font-medium
           "
         >
-          Get
+          Get →
         </div>
       </a>
     </div>
@@ -60,11 +60,11 @@ layout: default
       py-6
     "
   >
-    <div class="md:mr-10 flex flex-col items-center md:items-start">
+    <div class="px-4 flex flex-col items-center md:items-start animate-fadein">
       <div class="text-3xl md:text-5xl font-bold">
         Manipulate images with a single drag and drop
       </div>
-      <div class="text-gray-600 dark:text-gray-400 pt-2 text-lg">
+      <div class="text-gray-500 dark:text-gray-400 pt-2 text-lg">
         Simple manipulation for the most common use cases: converts, resizes and
         optimizes right from the menu bar.
       </div>
@@ -82,16 +82,20 @@ layout: default
               text-lg
               flex
               justify-center
+              font-semibold
+              transition
+              duration-200
+              hover:shadow-lg
             "
           >
-            Get it for free
+            Get it for free →
           </div>
         </a>
       </div>
     </div>
     <img
       src="{{site.baseurl}}/assets/demo2.gif"
-      class="w-full object-cover mt-6 mb-2 rounded-lg md:w-1/2"
+      class="w-full object-cover mt-6 mb-2 rounded-lg md:w-1/2 shadow-xl"
     />
   </div>
 
@@ -109,7 +113,7 @@ layout: default
     <div class="text-5xl py-3 font-bold pb-12">Ditch the online tools</div>
 
     <div class="flex flex-wrap">
-      <div class="bg-white dark:bg-black rounded-lg w-96 p-10 m-2">
+      <div class="bg-white shadow-lg dark:bg-black rounded-lg w-96 p-10 m-2">
         <div class="text-3xl">🖥</div>
         <div class="text-2xl font-semibold my-2">Native</div>
         <div class="text-gray-600 dark:text-gray-300">
@@ -117,7 +121,7 @@ layout: default
           of seconds.
         </div>
       </div>
-      <div class="bg-white dark:bg-black rounded-lg w-96 p-10 m-2">
+      <div class="bg-white shadow-lg dark:bg-black rounded-lg w-96 p-10 m-2">
         <div class="text-3xl">🤖</div>
         <div class="text-2xl font-semibold my-2">Optimization</div>
         <div class="text-gray-600 dark:text-gray-300">
@@ -126,7 +130,7 @@ layout: default
         </div>
       </div>
 
-      <div class="bg-white dark:bg-black rounded-lg w-96 p-10 m-2">
+      <div class="bg-white shadow-lg dark:bg-black rounded-lg w-96 p-10 m-2">
         <div class="text-3xl">🏙↔️🌇</div>
         <div class="text-2xl font-semibold my-2">Conversion</div>
         <div class="text-gray-600 dark:text-gray-300">
@@ -144,7 +148,7 @@ layout: default
       py-32
       w-full
       px-4
-      bg-coolGray-200
+      bg-coolGray-50
       dark:bg-trueGray-800
     "
   >
@@ -168,14 +172,14 @@ layout: default
     </div>
 
     <div class="flex flex-wrap">
-      <div class="bg-trueGray-100 dark:bg-trueGray-900 shadow-xl rounded-lg w-96 p-10 m-2">
+      <div class="bg-white dark:bg-trueGray-900 shadow-xl rounded-lg w-96 p-10 m-2">
         <div class="text-3xl">☀️</div>
         <div class="text-2xl font-semibold my-2">Start at login</div>
         <div class="text-gray-600 dark:text-gray-300">
           Automatically start Messer when your computer starts
         </div>
       </div>
-      <div class="bg-trueGray-100 dark:bg-trueGray-900 shadow-xl rounded-lg w-96 p-10 m-2">
+      <div class="bg-white dark:bg-trueGray-900 shadow-xl rounded-lg w-96 p-10 m-2">
         <div class="text-3xl">💾</div>
         <div class="text-2xl font-semibold my-2">Presets</div>
         <div class="text-gray-600 dark:text-gray-300">
@@ -183,7 +187,7 @@ layout: default
         </div>
       </div>
 
-      <div class="bg-trueGray-100 dark:bg-trueGray-900 shadow-xl rounded-lg w-96 p-10 m-2">
+      <div class="bg-white dark:bg-trueGray-900 shadow-xl rounded-lg w-96 p-10 m-2">
         <div class="text-3xl">🏎</div>
         <div class="text-2xl font-semibold my-2">Auto-convert</div>
         <div class="text-gray-600 dark:text-gray-300">
@@ -194,7 +198,12 @@ layout: default
   </div>
 
     <div class="my-44 flex flex-col items-center">
-      <div class="font-bold text-5xl">The next generation tool... today!</div>
+      <img
+        src="{{site.baseurl}}/assets/logo.webp"
+        class="object-cover h-32 w-3h-32"
+      />
+      <div class="font-bold text-5xl">Get Messer right now!</div>
+      <div class="">A next generation tool, available today, made in Germany.</div>
       <a href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12">
         <div
           class="
@@ -212,7 +221,6 @@ layout: default
           Get it on the App Store
         </div>
       </a>
-      <div>Made in Germany 🇩🇪</div>
     </div>
     <footer
       class="

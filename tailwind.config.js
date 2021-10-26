@@ -16,6 +16,19 @@ module.exports = {
       width: {
         768: "768px",
       },
+      keyframes: {
+        fadein: {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
+      },
+      animation: {
+        fadein: "fadein 1.5s ease-in-out",
+      },
     },
   },
   variants: {},
