@@ -2,37 +2,26 @@
 layout: default
 ---
 
-<div class="flex flex-col items-center w-full">
-  <div
-    class="sticky top-0 flex justify-center w-full px-6 py-3 bg-white border-gray-200 dark:border-gray-800 dark:bg-black dark:bg-opacity-50 bg-opacity-90 backdrop-filter backdrop-blur"
+<div class="flex flex-col items-center">
+  <header
+    class="sticky top-0 flex justify-center w-full px-6 py-3 bg-white border-gray-200 md:px-0 dark:border-gray-800 dark:bg-black dark:bg-opacity-50 bg-opacity-90 backdrop-filter backdrop-blur"
   >
-    <div class="flex items-center w-full md:w-9/12">
+    <div class="flex items-center w-full max-w-xl">
       <img
         src="{{site.baseurl}}/assets/logo.webp"
         class="object-cover w-10 h-10"
       />
       <div class="flex-1 pl-2 text-lg font-bold">Messer</div>
-
-      <a href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12" class="transition duration-200 rounded hover:bg-gray-100">
-        <div
-          class="px-6 text-lg font-medium text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-purple-500"
-        >
-          Get →
-        </div>
-      </a>
     </div>
-  </div>
+  </header>
 
-  <div
-    class="flex flex-col items-center justify-center min-h-screen px-3 py-6 pb-16"
-  >
+  <div class="px-4 py-6 pb-16">
     <div class="flex flex-col items-center px-4 animate-fadein">
-      <h1 class="max-w-xl text-5xl font-bold text-center">
-        Manipulate images with a single drag & drop
+      <h1 class="max-w-xl text-3xl font-bold text-center md:text-5xl">
+        Drag & drop image manipulation
       </h1>
       <p class="pt-6 text-lg text-center text-gray-500 dark:text-gray-400">
-        Convert, resize, pad and
-        optimize right from the macOS menu bar.
+        Convert, resize, pad and optimize right from the macOS menu bar.
       </p>
       <div class="mt-12">
         <a href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12">
@@ -46,50 +35,48 @@ layout: default
     </div>
 
     <div class="relative mt-20">
-      <div class="relative mt-12">
-        <div class="absolute top-0 w-full h-full rounded-full bg-gradient-to-r from-blue-600 to-purple-600 filter blur-2xl"/>
-      </div>
-      <div class="relative">
-        <img
-          src="{{site.baseurl}}/assets/Messer.png"
-          class="object-cover w-full max-w-2xl animate-fadein"
-        />
-      </div>
+      <div
+        class="absolute w-full h-full rounded-full bg-gradient-to-r from-blue-600 to-purple-600 filter blur-2xl"
+      ></div>
+      <img
+        src="{{site.baseurl}}/assets/Messer.png"
+        class="relative object-cover w-full max-w-2xl"
+      />
     </div>
   </div>
 
   <div
-    class="flex flex-col items-center w-full px-4 py-32 mt-20 "
+    class="flex flex-col items-center w-full px-4 py-32 mt-20 bg-neutral-900"
   >
-    <div class="py-3 pb-12 text-purple-500 uppercase">Ditch the online converters</div>
+    <div class="py-3 text-purple-500 uppercase">
+      Ditch the online converters
+    </div>
 
     <div class="flex flex-wrap">
-      <div class="p-10 m-2 bg-white rounded-lg shadow-lg dark:bg-black w-96">
-        <div class="my-2 text-2xl font-semibold">Blazing Fast</div>
-        <div class="text-gray-600 dark:text-gray-300">
-          Any mac can convert files in seconds, plus it's native.
+      <div class="w-full px-6 py-10 md:w-96">
+        <div class="py-2 text-2xl font-semibold text-center">Blazing Fast</div>
+        <div class="text-center text-gray-600 dark:text-gray-300">
+          A native tool that converts files in seconds.
         </div>
       </div>
-      <div class="p-10 m-2 bg-white rounded-lg shadow-lg dark:bg-black w-96">
-        <div class="my-2 text-2xl font-semibold">Optimization</div>
-        <div class="text-gray-600 dark:text-gray-300">
-          All images are automagically optimized, guaranteed to come out smaller.
+      <div class="w-full px-6 py-10 md:w-96">
+        <div class="py-2 text-2xl font-semibold text-center">Optimization</div>
+        <div class="text-center text-gray-600 dark:text-gray-300">
+          All images are automagically optimized, guaranteed to come out
+          smaller.
         </div>
       </div>
 
-      <div class="p-10 m-2 bg-white rounded-lg shadow-lg dark:bg-black w-96">
-        <div class="my-2 text-2xl font-semibold">Conversion</div>
-        <div class="text-gray-600 dark:text-gray-300">
-          Choose between webp, png or jpeg, with just a single
-          click.
+      <div class="w-full px-6 py-10 md:w-96">
+        <div class="py-2 text-2xl font-semibold text-center">Conversion</div>
+        <div class="text-center text-gray-600 dark:text-gray-300">
+          Choose between webp, png or jpeg, with just a single click.
         </div>
       </div>
     </div>
   </div>
 
-  <div
-    class="flex flex-col items-center w-full px-4 py-32"
-  >
+  <div class="flex flex-col items-center w-full px-4 py-20">
     <div
       class="mb-2 text-center text-transparent uppercase bg-clip-text bg-gradient-to-br from-yellow-400 to-orange-400"
     >
@@ -100,49 +87,51 @@ layout: default
     </div>
 
     <div class="flex flex-wrap">
-      <div class="p-10 m-2 w-96">
-        <div class="my-2 text-2xl font-semibold">Start at login</div>
-        <div class="text-gray-600 dark:text-gray-300">
+      <div class="w-full px-6 py-10 md:w-96">
+        <div class="my-2 text-2xl font-semibold text-center">
+          Start at login
+        </div>
+        <div class="text-center text-gray-600 dark:text-gray-300">
           Automatically start Messer when your computer starts
         </div>
       </div>
-      <div class="p-10 m-2 w-96">
-        <div class="my-2 text-2xl font-semibold">Presets</div>
-        <div class="text-gray-600 dark:text-gray-300">
+      <div class="w-full px-6 py-10 md:w-96">
+        <div class="my-2 text-2xl font-semibold text-center">Presets</div>
+        <div class="text-center text-gray-600 dark:text-gray-300">
           Save your own presets for rapid conversion. Includes custom colors.
         </div>
       </div>
 
-      <div class="p-10 m-2 w-96">
-        <div class="my-2 text-2xl font-semibold">Auto-convert</div>
-        <div class="text-gray-600 dark:text-gray-300">
+      <div class="w-full px-6 py-10 md:w-96">
+        <div class="my-2 text-2xl font-semibold text-center">Auto-convert</div>
+        <div class="text-center text-gray-600 dark:text-gray-300">
           Automatically convert any file on the Downloads folder
         </div>
       </div>
     </div>
   </div>
 
-    <div class="flex flex-col items-center my-44">
-      <img
-        src="{{site.baseurl}}/assets/logo.webp"
-        class="object-cover h-32 w-3h-32"
-      />
-      <div class="pt-8 dark:text-gray-300">A next generation tool, available today, made in Germany.</div>
-      <a href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12">
-        <div
-          class="px-12 py-2 my-12 text-xl text-white rounded bg-gradient-to-r from-blue-600 to-purple-600 "
-        >
-          Get it on the App Store 
-        </div>
-      </a>
+  <div class="flex flex-col items-center my-44">
+    <img
+      src="{{site.baseurl}}/assets/logo.webp"
+      class="object-cover w-32 h-32"
+    />
+    <div class="pt-8 text-center dark:text-gray-300">
+      A next generation tool, available today, made in Germany.
     </div>
+    <a href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12">
+      <div
+        class="px-12 py-2 my-12 text-xl text-white rounded bg-gradient-to-r from-blue-600 to-purple-600"
+      >
+        Get it on the App Store
+      </div>
+    </a>
   </div>
+
   <footer
     class="flex flex-col items-center w-full py-6 border-gray-200 dark:border-gray-800"
   >
-    <div class="text-sm text-gray-500 dark:text-gray-400">
-      By Oscar Franco
-    </div>
+    <div class="text-sm text-gray-500 dark:text-gray-400">By Oscar Franco</div>
     <!-- <div class="text-sm text-gray-500 dark:text-gray-400">2021</div> -->
   </footer>
 </div>

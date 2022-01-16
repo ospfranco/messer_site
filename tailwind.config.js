@@ -1,21 +1,12 @@
-var colors = require("tailwindcss/colors");
-
-delete colors.lightBlue;
-
 module.exports = {
-  purge: [
+  content: [
     "./_includes/**/*.html",
     "./_layouts/**/*.html",
     "./_posts/*.md",
     "./*.html",
   ],
-  darkMode: "media",
   theme: {
     extend: {
-      colors,
-      width: {
-        768: "768px",
-      },
       keyframes: {
         fadein: {
           "0%": {
@@ -31,6 +22,4 @@ module.exports = {
       },
     },
   },
-  variants: {},
-  plugins: [require("tailwind-scrollbar-hide")],
 };
