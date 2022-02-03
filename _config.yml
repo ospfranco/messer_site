@@ -4,7 +4,7 @@ plugins:
 
 author: "Oscar Franco"
 url: "https://messerapp.cc"
-title: "Messer, drag and drop image resizing"
+title: "Messer -- macOS app for local image conversion and optimization"
 description: "macOS menubar app to resize and convert images"
 
 exclude:
