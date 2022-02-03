@@ -2,15 +2,14 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "dev": "bundle exec jekyll serve --livereload --drafts --future --port 3000 '$@'",
+    "dev": "JEKYLL_ENV=development NODE_ENV=development bundle exec jekyll serve --livereload --port 3000 '$@'",
     "build": "JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build -d docs && git add ."
   },
   "dependencies": {
-    "autoprefixer": "^10.4.2",
-    "cssnano": "^5.0.8",
     "husky": "^5.0.9",
+    "autoprefixer": "^10.4.2",
+    "cssnano": "^5.0.15",
     "postcss": "^8.4.5",
-    "postcss-cli": "8.3.1",
     "postcss-import": "^14.0.2",
     "tailwindcss": "^3.0.15"
   }

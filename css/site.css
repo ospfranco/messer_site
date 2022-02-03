@@ -4,10 +4,3 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
-body {
-  @apply dark:text-white;
-  text-rendering: optimizeLegibility;
-  letter-spacing: 0;
-  -moz-osx-font-smoothing: grayscale;
-}

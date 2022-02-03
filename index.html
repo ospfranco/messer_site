@@ -2,39 +2,32 @@
 layout: default
 ---
 
-<div class="flex flex-col items-center">
-  <header class="flex items-center py-4">
-    <img
-      src="{{site.baseurl}}/assets/logo.webp"
-      class="object-cover w-10 h-10"
-    />
-    <div class="pl-2 text-lg font-bold">Messer</div>
+<div class="flex flex-col items-center px-6 md:px-0">
+  <header class="flex items-center gap-2 py-4">
+    <img src="{{site.baseurl}}/assets/logo.webp" class="object-cover w-9 h-9" />
+    <div class="text-4xl font-medium">Messer</div>
   </header>
-  <h1 class="px-6 text-5xl font-bold text-center pt-28">
-    Image manipulation on a single click
+
+  <h1 class="text-5xl font-bold text-center pt-28">
+    Single click image manipulation
   </h1>
 
   <p class="max-w-xl pt-6 text-xl text-center text-gray-800 dark:text-gray-100">
-    A native macOS app to do lightning fast local image manipulation and
-    optimization. Prepare your images for web, social media and more, right from
-    the menu bar.
+    A macOS app to do fast local image manipulation and optimization. Prepare
+    your images for web, social media and more, from the menu bar.
   </p>
 
-  <div class="relative px-6 mt-32 mb-32 md:px-0">
-    <div
-      class="absolute w-full h-full rounded bg-gradient-to-r from-blue-600 to-purple-600 filter blur-2xl"
-    ></div>
-    <img
-      src="{{site.baseurl}}/assets/Messer.png"
-      class="relative object-cover w-full max-w-2xl"
-    />
+  <div
+    class="max-w-2xl p-6 my-12 md:p-12 bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 rounded-xl"
+  >
+    <img src="{{site.baseurl}}/assets/Messer.png" class="w-full" />
   </div>
-  <a href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12">
-    <div
-      class="flex justify-center py-2 text-lg font-semibold text-white transition duration-200 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 w-52 hover:shadow-lg"
-    >
-      Get it for free
-    </div>
+
+  <a
+    href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12"
+    class="text-xl font-medium text-blue-500"
+  >
+    Get it for free ↗
   </a>
 
   <h1 class="px-6 text-5xl font-bold text-center mt-96">
@@ -42,48 +35,43 @@ layout: default
   </h1>
   <p class="max-w-xl pt-6 text-xl text-center text-gray-800 dark:text-gray-100">
     Converting images on someone else's computer is a waste of time,
-    auto-convert by folder and say goodbye to waiting for files to download.
+    auto-convert by folder. When you are done simply drag your image out.
   </p>
 
-  <div class="relative px-6 mb-32 mt-28 md:px-0">
-    <div
-      class="absolute w-full h-full rounded bg-gradient-to-r from-amber-300 to-blue-300 filter blur-2xl"
-    ></div>
-    <img
-      src="{{site.baseurl}}/assets/Messer2.png"
-      class="relative w-full max-w-2xl rounded-xl"
-    />
+  <div
+    class="max-w-2xl p-6 my-12 md:p-12 bg-gradient-to-br from-purple-500 via-blue-500 to-green-500 rounded-xl"
+  >
+    <img src="{{site.baseurl}}/assets/Messer2.png" class="w-full rounded-xl" />
   </div>
 
-  <h1 class="px-6 text-5xl font-bold text-center mt-96">
-    As simple as it gets
-  </h1>
+  <h1 class="px-6 text-5xl font-bold text-center mt-96">Doesn't get easier</h1>
   <p class="max-w-xl pt-6 text-xl text-center text-gray-800 dark:text-gray-100">
     After adjusting your image, it is automatically optimized, converting to
-    other formats, just as easy.
+    other formats, with a single click.
   </p>
 
-  <div class="relative px-6 mb-32 mt-28 md:px-0">
-    <div
-      class="absolute w-full h-full rounded bg-gradient-to-r from-green-500 to-purple-500 filter blur-2xl"
-    ></div>
-    <img
-      src="{{site.baseurl}}/assets/Messer3.png"
-      class="relative w-64 rounded-xl"
-    />
-  </div>
-  <a href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12">
-    <div
-      class="px-12 py-2 my-20 text-xl text-white rounded-full bg-gradient-to-r from-blue-600 to-purple-600"
-    >
-      Get
-    </div>
-  </a>
-
-  <footer
-    class="flex flex-col items-center w-full py-6 border-t border-gray-200 dark:border-gray-800"
+  <div
+    class="max-w-2xl p-6 my-12 md:p-12 bg-gradient-to-br from-orange-500 via-amber-500 to-pink-500 rounded-xl"
   >
-    <div class="text-sm text-gray-500 dark:text-gray-400">By Oscar Franco</div>
-    <!-- <div class="text-sm text-gray-500 dark:text-gray-400">2021</div> -->
-  </footer>
+    <img src="{{site.baseurl}}/assets/Messer3.png" class="w-full rounded-xl" />
+  </div>
+
+  <a
+    href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12"
+    class="mb-20 text-xl font-medium text-blue-500"
+  >
+    Get it on the App Store ↗
+  </a>
 </div>
+
+<footer
+  class="flex items-center justify-between w-full px-6 py-6 text-sm text-gray-500 border-t border-gray-200 dark:border-gray-800 dark:text-gray-400"
+>
+  <span> Messer </span>
+  <span>
+    By
+    <a href="https://ospfranco.com" class="font-medium underline"
+      >Oscar Franco</a
+    >
+  </span>
+</footer>
