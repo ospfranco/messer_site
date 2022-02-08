@@ -1,7 +1,7 @@
 author: "Oscar Franco"
 url: "https://messerapp.cc"
-title: "Messer -- macOS app for image conversion and optimization"
-description: "macOS menubar app to resize and convert images"
+title: "Messer -- convert, resize and edit images with native macOS menu bar app"
+description: "convert, resize and edit images with native macOS menu bar app"
 
 plugins:
   - jekyll-seo-tag
