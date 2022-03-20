@@ -2,113 +2,119 @@
 layout: default
 ---
 
-<div class="flex flex-col items-center px-12 pt-12">
-  <img
-    src="{{site.baseurl}}/assets/logo.png"
-    class="object-cover w-32 h-3w-32"
-  />
-  <div class="text-5xl font-thin dark:text-white">Messer</div>
-
-  <div class="lg:flex items-center gap-20 my-40 min-w-0 min-h-0">
-    <div class="flex-1 flex flex-col gap-4 items-center lg:items-start">
-      <h1
-        class="max-w-2xl text-3xl font-bold text-center lg:text-left md:text-5xl dark:text-white"
-      >
-        Fast and easy image editing
-      </h1>
-      <p
-        class="max-w-2xl text-xl text-center lg:text-left text-gray-800 dark:text-gray-100"
-      >
-        Native macOS app for image manipulation and optimization. Prepare your
-        images for web and social media in a matter of seconds.
-      </p>
+<div class="flex flex-col items-center px-6 md:px-12 pt-12">
+  <div class="md:max-w-5xl flex flex-col items-center">
+    <div class="flex items-center w-full">
+      <img
+        src="{{site.baseurl}}/assets/logo.png"
+        class="object-cover w-12 h-12"
+      />
+      <div class="text-2xl font-thin dark:text-white flex-1">Messer</div>
       <a
         href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12"
-        class="w-48 text-center py-2 font-medium text-white rounded-lg bg-blue-500 hover:bg-blue-600"
+        class="text-blue-500"
+        >Download</a
       >
-        Free Download ↗
-      </a>
-    </div>
-    <div class="flex-1 flex-shrink-0 h-96 py-12 lg:py-0">
-      <iframe
-        class="h-full w-full"
-        src="https://www.youtube-nocookie.com/embed/ULXPpQd8vpI"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
     </div>
 
-    <!-- <img
-      src="{{site.baseurl}}/assets/messer_pure.png"
-      class="w-full max-w-2xl mt-12 rounded-lg shadow-2xl dark:shadow-none dark:shadow-gray-200"
-    /> -->
+    <div
+      class="flex flex-col lg:flex-row items-center gap-20 my-40 min-w-0 min-h-0"
+    >
+      <div class="flex-1 flex flex-col gap-4 items-center lg:items-start">
+        <h1
+          class="text-3xl font-bold text-center lg:text-left md:text-5xl dark:text-white"
+        >
+          Easy image editing
+        </h1>
+        <p
+          class="text-xl text-center lg:text-left text-gray-800 dark:text-gray-100"
+        >
+          Native macOS app for image manipulation and optimization. Prepare your
+          images for web and social media in a matter of seconds.
+        </p>
+        <a
+          href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12"
+          class="w-48 text-center py-2 font-medium text-white rounded-lg bg-blue-500 hover:bg-blue-600 mt-8"
+        >
+          Free Download ↗
+        </a>
+      </div>
+
+      <div class="flex-1 flex-shrink-0">
+        <iframe
+          class="w-full h-80"
+          src="https://www.youtube-nocookie.com/embed/ULXPpQd8vpI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="lg:flex items-center gap-20 my-40">
+      <div class="flex flex-col gap-4 items-center lg:items-start">
+        <h1
+          class="max-w-2xl text-3xl font-bold text-center lg:text-left md:text-5xl dark:text-white"
+        >
+          Ready to deploy, post or share
+        </h1>
+        <p
+          class="max-w-2xl text-xl text-center lg:text-left text-gray-800 dark:text-gray-100"
+        >
+          Drag & drop an image or auto-convert by folder. Images are
+          automatically optimized and come out ready to use.
+        </p>
+      </div>
+
+      <img
+        src="{{site.baseurl}}/assets/Messer2.png"
+        class="w-full max-w-2xl mt-12 rounded-lg shadow-2xl dark:shadow-none dark:shadow-gray-200"
+      />
+    </div>
+
+    <div class="lg:flex items-center gap-20 my-40">
+      <div class="flex flex-col gap-4 items-center lg:items-start">
+        <h1
+          class="max-w-2xl text-3xl font-bold text-center lg:text-left md:text-5xl dark:text-white"
+        >
+          Styles made to appeal
+        </h1>
+        <p
+          class="max-w-2xl text-xl text-center lg:text-left text-gray-800 dark:text-gray-100"
+        >
+          Convert, pad, change background and resize with a few clicks -- even
+          if you do this every day, it will still save you time.
+        </p>
+      </div>
+
+      <img
+        src="{{site.baseurl}}/assets/generated.jpeg"
+        class="w-full max-w-2xl mt-12 rounded-lg shadow-2xl dark:shadow-none dark:shadow-gray-200"
+      />
+    </div>
+
+    <div class="flex flex-col lg:flex-row items-center gap-20 my-40">
+      <div class="flex flex-col gap-4 items-center lg:items-start">
+        <h1
+          class="max-w-2xl text-3xl font-bold text-center lg:text-left md:text-5xl dark:text-white"
+        >
+          Development, design or marketing
+        </h1>
+        <p
+          class="max-w-2xl text-xl text-center lg:text-left text-gray-800 dark:text-gray-100"
+        >
+          No matter who you are or what you need your images for, doing simple
+          manipulations doesn't get any easier.
+        </p>
+      </div>
+
+      <img
+        src="{{site.baseurl}}/assets/demo.gif"
+        class="w-full max-w-2xl mt-12 rounded-lg shadow-2xl dark:shadow-none dark:shadow-gray-200"
+      />
+    </div>
   </div>
-
-  <div class="lg:flex items-center gap-20 my-40">
-    <div class="flex flex-col gap-4 items-center lg:items-start">
-      <h1
-        class="max-w-2xl text-3xl font-bold text-center lg:text-left md:text-5xl dark:text-white"
-      >
-        Ready to deploy, post or share
-      </h1>
-      <p
-        class="max-w-2xl text-xl text-center lg:text-left text-gray-800 dark:text-gray-100"
-      >
-        Drag & drop an image or auto-convert by folder. Images are automatically
-        optimized and come out ready to use.
-      </p>
-    </div>
-
-    <img
-      src="{{site.baseurl}}/assets/Messer2.png"
-      class="w-full max-w-2xl mt-12 rounded-lg shadow-2xl dark:shadow-none dark:shadow-gray-200"
-    />
-  </div>
-
-  <div class="lg:flex items-center gap-20 my-40">
-    <div class="flex flex-col gap-4 items-center lg:items-start">
-      <h1
-        class="max-w-2xl text-3xl font-bold text-center lg:text-left md:text-5xl dark:text-white"
-      >
-        Styles made to appeal
-      </h1>
-      <p
-        class="max-w-2xl text-xl text-center lg:text-left text-gray-800 dark:text-gray-100"
-      >
-        Convert, pad, change background and resize with a few clicks -- even if
-        you do this every day, it will still save you time.
-      </p>
-    </div>
-
-    <img
-      src="{{site.baseurl}}/assets/generated.jpeg"
-      class="w-full max-w-2xl mt-12 rounded-lg shadow-2xl dark:shadow-none dark:shadow-gray-200"
-    />
-  </div>
-
-  <div class="lg:flex items-center gap-20 my-40">
-    <div class="flex flex-col gap-4 items-center lg:items-start">
-      <h1
-        class="max-w-2xl text-3xl font-bold text-center lg:text-left md:text-5xl dark:text-white"
-      >
-        Development, design or marketing
-      </h1>
-      <p
-        class="max-w-2xl text-xl text-center lg:text-left text-gray-800 dark:text-gray-100"
-      >
-        No matter who you are or what you need your images for, doing simple
-        manipulations doesn't get any easier.
-      </p>
-    </div>
-
-    <img
-      src="{{site.baseurl}}/assets/demo.gif"
-      class="w-full max-w-2xl mt-12 rounded-lg shadow-2xl dark:shadow-none dark:shadow-gray-200"
-    />
-  </div>
-
   <a
     href="https://apps.apple.com/de/app/messer/id1586304988?l=en&mt=12"
     class="w-48 text-center py-2 font-medium text-white rounded-lg bg-blue-500 hover:bg-blue-600 mb-40"
